@@ -7,7 +7,7 @@ matrix:
 # Install scripts.(uns after repo cloning)
 install:
 # Get the latest stable version of node
--ps : Install-Product node $env:nodejs_version
+- ps : Install-Product node $env:nodejs_version
 #Instal modules
 - npm install
 
